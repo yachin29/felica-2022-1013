@@ -31,11 +31,63 @@ height: 100%;
 }
 }
 
-//ここから各自の記述範囲
+//odamura部分
+
+
+.odamura-wrapper{
+    margin-top: 200px;
 
 
 
 
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+
+
+        margin-top: 100px;
+        
+        margin-bottom: 50px;
+
+
+    }
+
+    .odamura-contents{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+
+
+
+        .odamura-img{
+            width: 30%;
+
+        }
+
+        .odamura-txt-box{
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+
+            width: 50%;
+
+            h3{
+                font-size: 30px;
+
+                margin-bottom: 20px;
+
+            }
+        }
+
+    }
+}/* odamura-wrapper */
 
 
 
