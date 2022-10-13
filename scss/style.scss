@@ -33,6 +33,31 @@ height: 100%;
 
 //ここから各自の記述範囲
 
+//hoshino部分
+.hoshino-wrapper{
+width: 760px;
+border: 3px solid #98cc5c;
+margin: 100px auto;
+padding: 10px;
+.hoshino-title{
+font-size: 38px;
+font-family: $ja;
+padding-left: 20px;
+}
+.hoshino-photobox{
+display: flex;
+justify-content: space-around;
+margin: 20px 0;
+img{
+border-radius: 30px;
+box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
+}
+}
+.hoshino-text{
+font-size: 17px;
+padding: 20px;
+}
+}
 
 
 
