@@ -33,8 +33,41 @@ height: 100%;
 
 //ここから各自の記述範囲
 
+/* 岡澤の記述 */
+.okazawa-box{
+  width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ff9a0e88;
+  border-radius: 8px;
+  columns: 3;
+  h2{
+    font-size: 50px;
+    font-family: $ja;
+  }
+  .oka-img-box{
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    break-inside: avoid;
+    border-radius: 6px;
+    transition: 0.2s;
+    &:hover{
+      scale: 1.2;
+    }
+  }
+  .umi:hover{
+    border: 3px solid red;
+  }
+  .umi2:hover{
+    border: 3px solid blue;
+  }
+  .umi3:hover{
+    border: 3px solid green;
+  }
+}
 
-
+/* 岡澤の記述(end) */
 
 
 
