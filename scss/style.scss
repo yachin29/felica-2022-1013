@@ -33,7 +33,25 @@ height: 100%;
 
 //ここから各自の記述範囲
 
-
+.kurashima-wrapper{
+    /* width: 80%;
+    height: 70vh; */
+    margin: 100px 50px;
+h2{
+    margin-bottom: 20px;
+    font-family: var($ja);
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-bottom: 50px;    
+}
+p{
+    font-size: 25px;
+}
+}
 
 
 
