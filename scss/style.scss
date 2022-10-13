@@ -33,6 +33,42 @@ height: 100%;
 
 //ここから各自の記述範囲
 
+//iwata
+.iwata-wrapper{
+width: 100%;
+padding: 0 40px;
+margin:100px 0 ;
+.iwata-box1{
+display: flex;
+gap: 0 40px;
+margin-bottom: 80px;
+img{
+margin-bottom: 30px;
+}
+.iwata-txt{
+h2{
+text-align: center;
+font-family: $ja;
+font-size: 48px;
+margin-bottom: 20px;
+}
+p{
+margin-bottom: 80px;
+text-indent: 1em;
+letter-spacing: 2px;
+line-height: 1.6;
+font-size: 18px;
+}
+}
+}
+.iwata-box2{
+.bxslider{
+img{
+width: 100%;
+}
+}
+}
+}
 
 
 
