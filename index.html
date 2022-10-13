@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jquery.bxslider.css">
 </head>
 <body>
 <header>
@@ -17,6 +18,8 @@
 <img src="img/main.jpg" alt="">
 </div>
 </header>
+<div class="iwata-wrapper">
+
 
 <div class="yajima-wrapper">
 
@@ -35,6 +38,27 @@
 </div>
 </div><!-- /.yajima-photo-01 -->
 </div><!-- /.yajima-wrapper -->
+
+<div class="iwata-box1">
+<img src="img/iwata_paris.jpg" alt="">
+
+<div class="iwata-txt">
+<h2>Paris</h2>
+<p>都市の概要 セーヌ川中流に位置するフランス共和国の首都で，世界の文化・芸術の発信地です。 その歴史は紀元前1世紀のローマ人の植民地として始まり，ヨーロッパで最も古い大学の一つパリ大学があります。 市街は20区からなり同心状及び放射状に走る大道路に貫かれています。
+市域はティエールの城壁跡に造られた環状高速道路の内側の市街地（面積は86.99km2。参考：東京都・山手線の内側は63km2、ニューヨーク市・マンハッタンは59km2）、および、その外側西部のブローニュの森と外側東部のヴァンセンヌの森を併せた形となっており、面積は105.40km2。ケスタ地形を呈するパリ盆地のほぼ中央に位置し、市内をセーヌ川が貫きます。この川の中州であるシテ島を中心に発達しました。市内の地形は比較的平坦であるが、標高は最低でセーヌ川沿いの35メートル、最高でモンマルトルの丘の130メートルです[3]。北緯49度とやや高緯度に位置するが、温かい北大西洋海流と偏西風によって1年を通して比較的温暖となっており、西岸海洋性気候の代表的な都市です。
+</p>
+</div><!-- /.iwata-txt -->
+</div><!-- /.iwata-box1 -->
+
+<div class="iwata-box2">
+<ul class="bxslider">
+<li><img src="img/iwata_paris.jpg" alt=""></li>
+<li><img src="img/iwata_newyork.jpg" alt=""></li>
+<li><img src="img/iwata_london.jpg" alt=""></li>
+</ul>
+</div><!-- /.iwata-box2 -->
+</div><!-- /.iwata-wrapper -->
+
 
 <div class="odamura-wrapper">
 
@@ -62,5 +86,25 @@
 <footer>
 <p><small>&copy; FELICA</small></p>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+/* iwata-bxslider */
+$(function(){
+$('.bxslider').bxSlider({
+mode: 'horizontal',
+pager:false,
+auto: true,
+speed:1000,
+pause:5000,
+moveSlides:1,
+minSlides: 1,
+maxSlides: 1,
+slideMargin: 40,
+});
+});
+
+</script>
 </body>
 </html>
